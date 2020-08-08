@@ -12,7 +12,7 @@ Command:
 # php artisan vendor:publish
 
 Using:
-
+```
 Route::get("/contact", function () {
     $contctUsForm = \ContactUs::createForm();
     return view("contact.create", compact("contctUsForm"));
@@ -30,3 +30,4 @@ Route::get("/contacts", function () {
 Route::namespace("\ContactUs\app\Http\Controllers")->group(function () {
     Route::post("/contact", "ContactController@store")->name("contact.store");
 });
+```
