@@ -13,7 +13,6 @@
         }
     },
     "require": {
-        "laravel/framework": "^7.24",
         "caffeinated/flash": "^4.0"
     }
 }
