@@ -1,0 +1,19 @@
+{
+    "name": "rezapasalar/contact-us",
+    "description": "This package is for contact us section.",
+    "authors": [
+        {
+            "name": "Reza Pasalar",
+            "email": "rezapasalar@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ContactUs\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "~6",
+        "caffeinated/flash": "^4.0"
+    }
+}
