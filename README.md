@@ -1,7 +1,7 @@
 # contact-us
 This package is for the contact section for each website.
 
-# Add Provide:
+# Add Provider:
 ContactServiceProvider::class,
 
 # Add Facade:
