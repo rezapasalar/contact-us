@@ -2,10 +2,10 @@
 This package is for the contact section for each website.
 
 # Add Provider:
-ContactServiceProvider::class,
+ContactUs\ContactServiceProvider::class,
 
 # Add Facade:
-'ContactUs' => ContactFacade::class
+'ContactUs' => ContactUs\ContactFacade::class
 
 # Command:
 php artisan vendor:publish
