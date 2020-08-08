@@ -1,22 +1,22 @@
 # contact-us
 This package is for the contact section for each website.
 
-Add Provide:
-# ContactServiceProvider::class,
+# Add Provide:
+ContactServiceProvider::class,
 
-Add Facade:
-# 'ContactUs' => ContactFacade::class
+# Add Facade:
+'ContactUs' => ContactFacade::class
 
-Command:
-# php artisan vendor:publish
+# Command:
+php artisan vendor:publish
 
-Command:
-# php artisan migrate
+# Command:
+php artisan migrate
 
-Tip:
-# You must have your database name in the .env file. You have registered.
+# Tip:
+You must have your database name in the .env file. You have registered.
 
-Using:
+# Using:
 ```
 Route::get("/contact", function () {
     $contctUsForm = \ContactUs::createForm();
